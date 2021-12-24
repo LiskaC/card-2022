@@ -34,7 +34,7 @@ body {
   background-color: #e7e6dc;
   transform: rotateX(0deg);
   text-align: left;
-  color: #777;
+  color: #444;
   font-family: monospace;
   padding: 3rem;
 }
@@ -47,6 +47,15 @@ body {
 .para {
   font-size: 13px;
   margin: 10px 0;
+}
+
+.outro {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 16px;
 }
 
 .page::before, .page::after {
