@@ -18,19 +18,27 @@ export const PageTwo: FC<PageTwoProps> = ({ dimensions }) => {
   
   if (!card) return null
 
+  const isShortMessage = card.message.join(' ').length < 400
+
   return (
     <span className='page' style={dimensions}>
-        <div className='title'>Dear {card.name}</div>
+      <div className='page-content'>
+        <div className='title'>{card.name}</div>
         
         {card.message
           .map((para, i) => {
-          return <div key={i} className='para'>{para}</div>})}
+          return <div
+            key={i}
+            className='para'
+            style={{ "fontSize": `${isShortMessage ? "16px" : "13px"}` }}>
+              {para}
+            </div>})}
 
-        <div className='outro'>
+        <div className='outro' style={{ "fontSize": `${isShortMessage ? "16px" : "13px"}` }}>
           {card.outro}
           <div className='name'>Liska</div>
         </div>
-
+      </div>
     </span>
   )
 }

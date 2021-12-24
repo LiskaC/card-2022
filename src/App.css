@@ -27,17 +27,27 @@ body {
 .picture {
   position: absolute;
   z-index: 999;
-  background-color: #e7e6dc;
+  background-image: url('./paper.png');
+  background-size: contain;
   padding: 1rem;
 }
 
 .page {
-  background-color: #e7e6dc;
+  overflow-y: scroll;
+  background-image: url('./paper.png');
+  background-size: contain;
   transform: rotateX(0deg);
   text-align: left;
   color: #444;
   font-family: monospace;
-  padding: 3rem;
+}
+
+.page-content {
+  margin: 2rem;
+
+  @media (min-width: 768px) {
+    margin: 3rem;
+  }
 }
 
 .title {
