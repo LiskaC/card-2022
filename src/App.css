@@ -1,38 +1,118 @@
-.App {
-  text-align: center;
+body {
+  background-color: #B5E7F5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-container {
+  max-width: 1000px;
+  height: 100vh;
+  background-color: cornsilk;
+  margin: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  margin: auto;
+  width: 55.5rem;
+  height: 28rem;
+  perspective: 100rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.picture {
+  position: absolute;
+  z-index: 999;
+  background-color: #e7e6dc;
+  padding: 1rem;
+}
+
+.page {
+  background-color: #e7e6dc;
+  transform: rotateX(0deg);
+  text-align: left;
+  color: #777;
+  font-family: monospace;
+  padding: 3rem;
+}
+
+.title {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.para {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.page::before, .page::after {
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.picture, .page {
+  position: absolute;
+  transform-origin: 100% 0;
+  border-radius: 0 0 5px 5px;
+  box-shadow: inset 3px 0px 20px rgba(0, 0, 0, 0.2),
+    0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.picture.turn {
+  animation: coverOpen 3s forwards;
+}
+
+.page.turn {
+  animation: cardOpen 3s forwards;
+}
+
+@keyframes coverOpen {
+  30% { z-index: 999 }
+  35% { z-index: 400 }
+  100% {  
+    transform: rotateX(150deg);
+    z-index: 1;}
+}
+
+@keyframes cardOpen {
+  30% { z-index: 1 }
+  35% { z-index: 600 }
+  100% { 
+    transform: rotateX(150deg);
+    z-index: 999;}
+}
+
+.picture.close {
+  animation: coverClose 3s forwards;
+}
+
+.page.close {
+  animation: cardClose 3s forwards;
+}
+
+@keyframes coverClose {
+  0% { 
+    transform: rotateX(150deg);
+    z-index: 1
   }
-  to {
-    transform: rotate(360deg);
+  45% { z-index: 600 }
+  100% {  
+    transform: rotateX(0deg);
+    z-index: 999;}
+}
+
+@keyframes cardClose {
+  0% { 
+    transform: rotateX(150deg);
+    z-index: 999
   }
+  45% { z-index: 500 }
+  100% { 
+    transform: rotateX(0deg);
+    z-index: 1;}
 }
