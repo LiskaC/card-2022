@@ -16,6 +16,7 @@ body {
   width: 55.5rem;
   height: 28rem;
   perspective: 100rem;
+  cursor: pointer;
 }
 
 .image {

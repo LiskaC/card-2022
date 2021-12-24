@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/card-2022/static/css/main.d1d592e5.css",
+    "main.css": "/card-2022/static/css/main.371950f6.css",
     "main.js": "/card-2022/static/js/main.f2fd9012.js",
     "static/js/787.137c8788.chunk.js": "/card-2022/static/js/787.137c8788.chunk.js",
     "static/media/Konoshima-Moon.jpeg": "/card-2022/static/media/Konoshima-Moon.4bb9b6452c14f2160436.jpeg",
     "index.html": "/card-2022/index.html",
-    "main.d1d592e5.css.map": "/card-2022/static/css/main.d1d592e5.css.map",
+    "main.371950f6.css.map": "/card-2022/static/css/main.371950f6.css.map",
     "main.f2fd9012.js.map": "/card-2022/static/js/main.f2fd9012.js.map",
     "787.137c8788.chunk.js.map": "/card-2022/static/js/787.137c8788.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1d592e5.css",
+    "static/css/main.371950f6.css",
     "static/js/main.f2fd9012.js"
   ]
 }
