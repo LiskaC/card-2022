@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/card-2022/static/css/main.afefd1fe.css",
-    "main.js": "/card-2022/static/js/main.2aca0e15.js",
+    "main.css": "/card-2022/static/css/main.b06aa321.css",
+    "main.js": "/card-2022/static/js/main.f4c0693a.js",
     "static/js/787.137c8788.chunk.js": "/card-2022/static/js/787.137c8788.chunk.js",
-    "static/media/Konoshima-Moon.jpeg": "/card-2022/static/media/Konoshima-Moon.4bb9b6452c14f2160436.jpeg",
+    "static/media/viktorzaretsky.webp": "/card-2022/static/media/viktorzaretsky.f2f77f9c1d4ca03f314a.webp",
     "index.html": "/card-2022/index.html",
-    "main.afefd1fe.css.map": "/card-2022/static/css/main.afefd1fe.css.map",
-    "main.2aca0e15.js.map": "/card-2022/static/js/main.2aca0e15.js.map",
+    "main.b06aa321.css.map": "/card-2022/static/css/main.b06aa321.css.map",
+    "main.f4c0693a.js.map": "/card-2022/static/js/main.f4c0693a.js.map",
     "787.137c8788.chunk.js.map": "/card-2022/static/js/787.137c8788.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.afefd1fe.css",
-    "static/js/main.2aca0e15.js"
+    "static/css/main.b06aa321.css",
+    "static/js/main.f4c0693a.js"
   ]
 }
