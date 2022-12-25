@@ -16,6 +16,7 @@ body {
   width: 55.5rem;
   height: 35rem;
   perspective: 100rem;
+  cursor: pointer;
 }
 
 .image {
@@ -37,6 +38,7 @@ body {
   color: #777;
   font-family: monospace;
   padding: 3rem;
+  overflow: scroll;
 }
 
 .title {

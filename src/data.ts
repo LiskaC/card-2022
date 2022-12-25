@@ -148,6 +148,22 @@ const data: Card[] =
     ],
     outro: 'Viele Grüße'
   },
+  {
+    id: 'tetiana',
+    name: 'Dear Tetiana',
+    message: [
+      'Frohes Weihnachten! Ich hoffe, dass du hast ein tolles Urlaub für diese Tagen und der Neue Jahre (das ist immer verrückt in Berlin, ich weiß nicht ob es geht so auch in München??). Es war so nett dich zu treffen und zusammen Bouldern - ich hoffe wieder als ich nach München komme)',
+    ],
+    outro: 'Viele Grüße'
+  },
+  {
+    id: 'ravn',
+    name: 'Dear Tetiana',
+    message: [
+      'Frohes Weihnachten! Ich hoffe, dass du hast ein tolles Urlaub für diese Tagen und der Neue Jahre (das ist immer verrückt in Berlin, ich weiß nicht ob es geht so auch in München??). Es war so nett dich zu treffen und zusammen Bouldern - ich hoffe wieder als ich nach München komme)',
+    ],
+    outro: 'Viele Grüße'
+  },
 ]
 
 export default data
