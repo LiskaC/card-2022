@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import image from '../Konoshima-Moon.jpeg'
+import image from '../images/viktorzaretsky.webp'
 
 import '../App.css'
 

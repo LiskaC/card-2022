@@ -26,6 +26,8 @@ export const PageTwo: FC<PageTwoProps> = ({ dimensions }) => {
           .map((para, i) => {
           return <div key={i} className='para'>{para}</div>})}
 
+        {card.link && <a href={card.link} className='para'>Here's a link which you definitely want to click</a>}
+        <div className='para'>{card.outro}</div>
     </span>
   )
 }
