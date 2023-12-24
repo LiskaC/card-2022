@@ -40,13 +40,13 @@ const data: Card[] =
   },
   {
     id: 'edandannika',
-    name: 'Dear Ed and Annika',
+    name: 'Dearest Ed and Annika',
     message: [
-      'Merry Christmas!',
-      'Hope you\'re both having a lovely Christmas and helloes and much love to all the family! Are you up in Hope Valley for this one?',
-      'Really happy to have seen you both so comparatively often this last year especially considering all that\'s happened. Long may it continue! I can\'t tell you enough how lucky I count myself to have you both as friends. Come and visit again and often in Munich, hopefully next time too I might be somewhat less zonked and can take you out and about and even see some exhibits and other stuff together :) I\'m planning to visit the UK as soon as possible next year, probably it\'s looking like February so if you\'ll have me I\'d love to drop in on you chaps then.'
+      'Merry Christmas (from Lublin!) :))',
+      'Your beautiful card came just before I left. Thank you so much for including me in your Christmas list. I was also so happy to see you both so often this year and always grateful for a friendships which travels so much and so easily. Do send me your address as soon as you have it in Belgium. I look forward to seeing you there, in Munich, and from my side being better at keeping in touch - I feel like things are settling down finally.',
+      'By the way I was telling my parents about Gosia\'s Deli just today. It\'s funny celebrating on the 24th but will get used to it. What are you chaps up to this year?'
     ],
-    outro: 'Much love, from down under! Viele Liebe Grüße und bis bald!'
+    outro: 'Viele Liebe Grüße und bis bald!'
   },
   {
     id: 'deviltakethehindmost',
@@ -98,19 +98,19 @@ const data: Card[] =
     id: 'famanddoggies',
     name: 'Dear Venessa, Simon and all the doggies',
     message: [
-      'Merry Christmas!! I hope that you are all having a wonderful and cosy winter together and that you\'re all feeling fantastic and having tonnes of all the most tasty Christmas food. I\'m really looking forward to visiting the UK again as soon as it is possible and I really hope that it will be possible to see you all then again!',
-      'Until then I\'m thinking of you all and wishing you all the very very best.'
+      'Merry Christmas! I hope you\'re having a lovely winter and loads of good food, and that you\'re all doing super well. Hoping to make it back to the UK sometime in the not-too-distant and would love to see you again if you have time.'
     ],
-    outro: 'Much love,'
+    outro: 'Wishing you all the very best, and much love,'
   },
   {
     id: 'grandparents',
-    name: 'Dear Gary and Melissa',
+    name: 'Dearest Gary and Melissa',
     message: [
-      'Merry Christmas! I hope that you are having a wonderful, idyllic Christmas in Marble Falls. It makes me happy to think of you both there, and it really doesn\'t seem any time at all since I last saw you (but I\'m sad that it has in fact had to be such a long time). I\'m happy every time I get an email or message from you, and to have such wonderful family everywhere.',
-      'I\'m settling in well in Munich and you are always invited. The nature here is beautiful - the land is flat then rises sharply as you hit the Alps, which you can sometimes see from high points in the city. More importantly I\'ve found really wonderful people here and have a lot of friends.',
+      'Merry, merry Christmas!',
+      'It was so, so wonderful to see you both again, and finally to meet Kevin. Thank you so much for the wonderful week I spent with you in Marble Falls (it somehow felt both like far longer and no-where near enough time). Just a few days ago as we were talking with a friend about yarn and knitting and I remembered the yarn you were spinning (and dyeing too?) and all the things we still have to do together.',
+      'It\'s wonderful settling down in my own flat now and I didn\'t realise how much I was missing the feeling of really being at home. I\'ve started baking again which also reminded me of Arkansas. I hope you are having a wonderful cosy Christmas, winter, and enjoying the winter weather as much as we are here. I\'ve also met an exceptional man called David, he\'s from Munich, I very much hope that everything works out and you\'ll also get to meet him, you\'d really get on.'
     ],
-    outro: 'Hoping finally to be able to see you again soon and sending much, much love! Liska,'
+    outro: 'Much, much love!,'
   },
   {
     id: 'pleasegetmeaticketwhenyouplayatthenextworldcup',
@@ -149,20 +149,31 @@ const data: Card[] =
     outro: 'Viele Grüße'
   },
   {
-    id: 'tetiana',
-    name: 'Dear Tetiana',
+    id: 'ravn',
+    name: 'Dearest Sveta',
     message: [
-      'Frohes Weihnachten! Ich hoffe, dass du hast ein tolles Urlaub für diese Tagen und der Neue Jahre (das ist immer verrückt in Berlin, ich weiß nicht ob es geht so auch in München??). Es war so nett dich zu treffen und zusammen Bouldern - ich hoffe wieder als ich nach München komme)',
+      'Merry Christmas! I guess you don\'t celebrate now but I wanted to send you a card anyway. Sorry that it\'s not a physical one but I\'ll get back to that in years when things are better. I think of you often and I am always wishing you all the best, I hope we\'ll get to meet again soon and maybe some time again have Christmasses as a family all together.'
     ],
-    outro: 'Viele Grüße'
+    outro: 'Mit viele Liebe Grüße'
   },
   {
-    id: 'ravn',
-    name: 'Dear Tetiana',
+    id: 'melina',
+    name: 'Dearest Melina',
     message: [
-      'Frohes Weihnachten! Ich hoffe, dass du hast ein tolles Urlaub für diese Tagen und der Neue Jahre (das ist immer verrückt in Berlin, ich weiß nicht ob es geht so auch in München??). Es war so nett dich zu treffen und zusammen Bouldern - ich hoffe wieder als ich nach München komme)',
+      'Merry, merry Christmas! I hope you\'ve had a really lovely day with your family and the presents were great and nice food and that you\'ve all had a good time together :)) You\'re an awesome friend, this year has been so much better because of you. Our friendship is what I had been missing for ages and exactly what I hoped to find :) This year will be even more awesome for you I\'m sure, I can\'t wait for all the awesome things we can also do together.',
     ],
-    outro: 'Viele Grüße'
+    outro: 'Much love and mit viele Liebe Grüße'
+
+  },
+  {
+    id: 'david',
+    name: 'Dear David',
+    message: [
+      'Merry Christmas) I guess everyone\'s headed off now, so I hope it\'s nice for you having a quiet time at home - or maybe you\'ll be running around Munich a lot seeing other friends? I\'m happy to have come to Lublin, it\'s nice to have the feeling of being around family, even though talking to my Polish grandmother is a bit hard. I didn\'t really do anything today yet somehow the day is gone. That\'s also good. Way too many pierogi eaten already too. It\'s also good to remember how easy it is to just get on a train (or eight hahah) and go to somewhere new - I want to do it again more.',
+      'I\'m happy to get your messages) It\'s nice to picture what you\'re doing too. I want to see you again)'
+    ],
+    outro: 'Much love,'
+
   },
 ]
 

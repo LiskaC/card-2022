@@ -1,4 +1,4 @@
-import { Card } from './components/card.tsx'
+import { Card } from './components/Card.tsx'
 import './App.css'
 
 function App() {

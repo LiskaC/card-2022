@@ -7,9 +7,6 @@ type PageOneProps = {
   dimensions: React.CSSProperties
 }
 
-export const PageOne: FC<PageOneProps> = ({ action, dimensions }) => {
-
-  return (
-    <span className={`page ${action}`} style={dimensions} />
+export const PageOne: FC<PageOneProps> = props => (
+    <span className={`page ${props.action}`} style={props.dimensions} />
   )
-}

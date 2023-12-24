@@ -13,7 +13,7 @@ body {
 
 .card {
   margin: auto;
-  width: 55.5rem;
+  width: 33.5rem;
   height: 35rem;
   perspective: 100rem;
   cursor: pointer;
@@ -29,6 +29,10 @@ body {
   z-index: 999;
   background-color: #e7e6dc;
   padding: 1rem;
+}
+
+.picture:hover {
+  opacity: 0.8;
 }
 
 .page {

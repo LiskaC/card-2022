@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { PageOne } from './page-1'
 import { PageTwo } from './page-2'
-import { Picture } from './picture'
+import { Cover } from './Cover'
 
 import '../App.css'
 
@@ -58,18 +58,13 @@ export const Card = () => {
   return (
     <div className='card-container'>
       <div className="card" onClick={onClick}>
-        <Picture action={action} />
-        
-        {initialDimensions.height > 0 && 
-        <>
-          <PageOne
-            action={action}
-            dimensions={initialDimensions}
-          />
-          <PageTwo
-            dimensions={initialDimensions}
-          />
-        </>}
+        <Cover action={action} />
+        {initialDimensions.height > 0 && (
+          <>
+            <PageOne action={action} dimensions={initialDimensions} />
+            <PageTwo dimensions={initialDimensions} />
+          </>
+        )}
       </div>
     </div>
   );

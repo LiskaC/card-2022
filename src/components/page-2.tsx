@@ -3,31 +3,27 @@ import data from '../data'
 
 import '../App.css'
 
-
 const queryParams = new URLSearchParams(window.location.search);
 const id = queryParams.get('id')
 
-const card = data.find(entry => id === entry.id)
+const message = data.find(entry => id === entry.id)
 
 
-type PageTwoProps = {
+type Props = {
   dimensions: React.CSSProperties
 }
 
-export const PageTwo: FC<PageTwoProps> = ({ dimensions }) => {
+export const PageTwo: FC<Props> = props => {
   
-  if (!card) return null
+  if (!message) return <span className="page" style={props.dimensions}></span>
 
   return (
-    <span className="page" style={dimensions}>
-        <div className='title'>{card.name}</div>
-        
-        {card.message
-          .map((para, i) => {
-          return <div key={i} className='para'>{para}</div>})}
-
-        {card.link && <a href={card.link} className='para'>Here's a link which you definitely want to click</a>}
-        <div className='para'>{card.outro}</div>
+    <span className="page" style={props.dimensions}>
+        <div className='title'>{message.name}</div>
+        {message.message.map((para, i) => <div key={i} className='para'>{para}</div>)}
+        {message.link && <a href={message.link} className='para'>Here's a link which you definitely want to click</a>}
+        <div className='para'>{message.outro}</div>
+        <div className='para'>Liska</div>
     </span>
   )
 }
