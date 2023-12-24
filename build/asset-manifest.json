@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/card-2022/static/css/main.d0a9c871.css",
-    "main.js": "/card-2022/static/js/main.0519314d.js",
+    "main.css": "/card-2022/static/css/main.9086e9c6.css",
+    "main.js": "/card-2022/static/js/main.faca769a.js",
     "static/js/787.137c8788.chunk.js": "/card-2022/static/js/787.137c8788.chunk.js",
-    "static/media/viktorzaretsky.webp": "/card-2022/static/media/viktorzaretsky.f2f77f9c1d4ca03f314a.webp",
+    "static/media/winter-forest-zaretsky.jpeg": "/card-2022/static/media/winter-forest-zaretsky.7b14936919ba25b62e19.jpeg",
     "index.html": "/card-2022/index.html",
-    "main.d0a9c871.css.map": "/card-2022/static/css/main.d0a9c871.css.map",
-    "main.0519314d.js.map": "/card-2022/static/js/main.0519314d.js.map",
+    "main.9086e9c6.css.map": "/card-2022/static/css/main.9086e9c6.css.map",
+    "main.faca769a.js.map": "/card-2022/static/js/main.faca769a.js.map",
     "787.137c8788.chunk.js.map": "/card-2022/static/js/787.137c8788.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0a9c871.css",
-    "static/js/main.0519314d.js"
+    "static/css/main.9086e9c6.css",
+    "static/js/main.faca769a.js"
   ]
 }
